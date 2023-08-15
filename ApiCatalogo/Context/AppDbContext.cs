@@ -10,8 +10,8 @@ public class AppDbContext : DbContext
 
     public AppDbContext() { }
 
-    public DbSet<Categoria> Categoria { get; set; }
-    public DbSet<Produto> Produto { get; set; }
+    public DbSet<Categoria> Categorias { get; set; }
+    public DbSet<Produto> Produtos { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
